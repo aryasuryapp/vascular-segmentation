@@ -10,7 +10,7 @@ import matplotlib.patches as mpatches
 st.title('Image Segmentation')
 
 st.header('Input Image')
-file = './raw_images/frame1.jpg'
+file = './frame1.jpg'
 raw_image = cv2.imread(file)
 # input_image = raw_image.copy()
 # raw_image = cv2.cvtColor(raw_image, cv2.COLOR_BGR2GRAY)
